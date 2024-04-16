@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Lens VS Mobilenet</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+            <h1 id="header"><div class="googlelens">GOOGLE LENS</div> vs <br> <div class="btn btn-info mobilenet">MOBILENET</div></h1>
+            <br>
+            <br>
+        <ol>
+            <div class="testImgRslt col-xs-12">
+                <li class="col-sm-4 col-xs-12 list">
+                    <b>Test image: a keyboard</b>
+                    <img src="apmgKey.jpeg" class="img-responsive" id="item">
+                </li>
+
+                <h5 class="col-sm-3 col-xs-11">
+                    <b>GOOGLE LENS</b>' guess:
+                    <br>
+                    <span id="googlelens1" class="rslt">WIRED KEYBOARD</span>
+                </h5>
+
+                <h5 class="col-sm-3 col-xs-11">
+                    <b>MOBILENET</b>'s guess:
+                    <br>
+                    <span id="mobilenet1" class="rslt">KEYBOARD, KEYPAD</span>
+                </h5>
+            </div>
+            <br>
+            <div class="testImgRslt col-xs-12" id="2">
+                <li class="col-sm-4 col-xs-12 list">
+                    <b>Test image: a mouse</b>
+                    <img src="a3Mouse.jpeg" class="img-responsive" id="item">
+                </li>
+
+                <h5 class="col-sm-3 col-xs-11">
+                    <b>GOOGLE LENS</b>' guess:
+                    <br>
+                    <span id="googlelens1" class="rslt">GAMING MOUSE</span>
+                </h5>
+
+                <h5 class="col-sm-3 col-xs-11">
+                    <b>MOBILENET</b>'s guess:
+                    <br>
+                    <span id="mobilenet1" class="rslt">BONNET (what)</span>
+                </h5>
+            </div>
+            <br>
+            <div class="testImgRslt col-xs-12">
+                <li class="col-sm-4 col-xs-12 list">
+                    <b>Test image: a playing card</b>
+                    <img src="pCard.jpeg" class="img-responsive" id="item">
+                </li>
+
+                <h5 class="col-sm-3 col-xs-11">
+                    <b>GOOGLE LENS</b>' guess:
+                    <br>
+                    <span id="googlelens1" class="rslt">PLAYING CARD</span>
+                </h5>
+
+                <h5 class="col-sm-3 col-xs-11">
+                    <b>MOBILENET</b>'s guess:
+                    <br>
+                    <span id="mobilenet1" class="rslt">TV SCREEN (what x2)</span>
+                </h5>
+            </div>
+            <br>
+            <div class="testImgRslt col-xs-12">
+                <li class="col-sm-4 col-xs-12 list">
+                    <b>Test image: an HB pencil</b>
+                    <img src="stPncl.jpeg" class="img-responsive" id="item">
+                </li>
+
+                <h5 class="col-sm-3 col-xs-11">
+                    <b>GOOGLE LENS</b>' guess:
+                    <br>
+                    <span id="googlelens1" class="rslt">PENCIL 2B</span>
+                </h5>
+
+                <h5 class="col-sm-3 col-xs-11">
+                    <b>MOBILENET</b>'s guess:
+                    <br>
+                    <span id="mobilenet1" class="rslt">WINDOW SHADE (what x3)</span>
+                </h5>
+            </div>
+        </ol>
+
+        <br><br><br>
+            <p id="po">I have tested 4 objects.<br>Google Lens has guessed all correctly, while Mobilenet has only guessed one. <br>
+                From this test, I can conclude that Google Lens is way more accurate.
+            </p>
+
+        </center>
+    </body>
+</html>

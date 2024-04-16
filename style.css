@@ -1,0 +1,46 @@
+body{
+    background-color:bisque
+}
+#header{
+    font-size: 25px;
+    font-family: monospace;
+}
+.googlelens{
+    font-size: 45px;
+    color:darkslateblue;
+}
+.mobilenet{
+    font-size: 45px;
+}
+
+.testImgRslt{
+    background-color: lightsteelblue;
+    border-radius: 30px;
+    padding: 25px;
+    width: 97%;
+}
+.list{
+    background-color:rgb(83, 147, 147);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+}
+h5{
+    background-color:coral;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    height: 150px;
+}
+.rslt{
+    font-size: 20px;
+    font-family: monospace;
+}
+#item{
+    border-radius: 25px;
+}
+
+#po{
+    font-size: 25px;
+    margin-top: 2800px;
+}
